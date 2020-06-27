@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Portfolio Webpage</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+		<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+		<link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+
+		<!-- Navigation -->
+	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#"><img src="img/icons8-tea-64.png"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item" >
+						<a class="nav-link" href="#slides">Home</a>
+					</li>
+					<li class="nav-item" >
+						<a class="nav-link" href="#about">About</a>
+					</li>
+					<li class="nav-item" >
+						<a class="nav-link" href="#skills">Skills</a>
+					</li>
+					<li class="nav-item" >
+						<a class="nav-link" href="#projects">Projects</a>
+					</li>
+					<li class="nav-item" >
+						<a class="nav-link" href="#connect">Connect</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+		<!--- Image Slider -->
+	<div id="slides" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#slides" data-slide-to="0" class="active"></li>
+			<li data-target="#slides" data-slide-to="1"></li>
+    </ol>
+    <!-- Slide Wrapper -->
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="img/german-bridge.png">
+				<div class="carousel-caption">
+					<h1 class="display-2">JUSTIN LEE</h1>
+					<h3>Developer. Innovator. Enthusiast.</h3>
+					<!-- <button type="button" class="btn btn-outline-light btn-lg">GET TO KNOW ME</button>
+					<button type="button" class="btn btn-primary btn-lg">My Portfolio</button> -->
+			</div>
+			<div class="carousel-item">
+				<img src="img/mountains.png">
+			</div>
+    </div>
+	</div>
+
+		<!--- Welcome Jumbotron -->
+	<div class="container-fluid">
+		<div class="row jumbotron">
+			<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+				<p class="lead">Hi there and thanks for visiting! Creating this website was a way to dabble into my interests in front-end development as well as give myself an outlet to showcase my other personal projects. Enjoy!
+				</p>
+			</div>
+		</div>
+	</div>
+
+		<!--- About Me Section -->
+  <div class="container-fluid padding">
+    <div class="row padding">
+      <div class="col-md-12 col-lg-6">
+        <h2 id="about">About me...</h2>
+          <p>Currently pursuing a BS in Computer Science and a minor in Cybersecurity at Texas A&M University. Born in South Korea but raised mostly in Houston, Texas, I make sure to always cherish both of my roots since both hold true to me.
+            I'm also a huge foodie everyday, gamer on the holidays, and a gym rat on the off days. Family and friends always come first so I make sure to leave enough time to spend quality moments with them :) </p>
+          <p>At the moment, I am really enjoying aspects of Front End development because it gives me more of a creative avenue to explore different styles of UI for all types of applications. I have been working on a lot of small app projects just
+            to start honing my craft in designing since there is much room to improve for me to be where I want to be. This means not only exploring new languages outside of the ones I've been focused on at school (C++ and Python), but also exposing
+            myself to app building IDE's such as Android Studio and possibly Swift in the near future. In any case, I plan to stay ambitious and keep my horizons open to technology shifts in the market in order to be up to date with what's new and exciting! </p>
+      </div>
+      <div class="col-lg-6">
+        <img src="img/pro-pic.JPG" class="img-fluid">
+    </div>
+  </div>
+
+    <!--- Skills Section -->
+  <div class="container-fluid padding">
+    <div class="row welcome text-center">
+      <div class="col-12">
+        <h1 id="skills" class="display-4">Language Skills.</h1>
+      </div>
+      <hr>
+      <div class="col-12">
+        <p class="lead">Well versed in C++, Python, HTML/CSS/Javascript and familiar with Java</p>
+      </div>
+    </div>
+  </div>
+
+    <!--- Skills Three Column Section -->
+  <div class="container-fluid padding">
+    <div class="row text-center padding">
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <i class="fab fa-cuttlefish"></i>
+          <h3>C++</h3>
+          <p>Written over 3000+ lines</p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <i class="fab fa-python"></i>
+          <h3>Python</h3>
+          <p>Written over 1500+ lines</p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <i class="fab fa-html5"></i>
+        <i class="fab fa-css3"></i>
+        <i class="fab fa-js-square"></i>
+          <h3>HTML/CSS/Javascript</h3>
+          <p>Written over 1000+ lines</p>
+      </div>
+    </div>
+    <hr class="my-4">
+  </div>
+
+		<!--- Personal Projects -->
+  <div class="container-fluid padding">
+    <div class="row welcome text-center">
+      <div class="col-12">
+        <h1 id="projects" class="display-4">Personal Projects</h1>
+      </div>
+      <hr>
+    </div>
+  </div>
+
+		<!--- Project Cards -->
+    <div class="container-fluid padding">
+      <div class="row padding">
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="img/tipper.JPG">
+            <div class="card-body">
+              <h4 class="card-title">Tipper</h4>
+              <p class="card-text">Ever unsure of how much to tip after dining in? Tipper is an app that automatically calculates how much you should tip when dining at a restaurant based on your satisfaction of the experience.</p>
+              <a href="https://github.com/jNLeee/Tipper" class="btn btn-outline-secondary">Check it out!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="img/JustToDo.JPG">
+            <div class="card-body">
+              <h4 class="card-title">JustToDo</h4>
+              <p class="card-text">Do you ever feel like procrastinating? Well don't because JustToDo is an app that can help you manage your daily to do list and help you be on the next front page of Forbes Top 100.</p>
+              <a href="#" class="btn btn-outline-secondary">Try it!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="img/StockIt.JPG">
+            <div class="card-body">
+              <h4 class="card-title">StockIt</h4>
+              <p class="card-text">Hate keeping track of all your favorite stocks? Well now you don't need to since StockIt is an app that throws you a notification whenever your valuable stocks rise or fall in the market.</p>
+              <a href="#" class="btn btn-outline-secondary">Try it!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+		<!--- Connect -->
+  <div class="container-fluid padding">
+    <div class="row text-center padding">
+      <div class="col-12">
+        <h2 id="connect">Connect</h2>
+      </div>
+      <div class="col-12 social padding">
+        <a href="https://www.linkedin.com/in/justin-lee-6b6350184/"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:jlee232435@gmail.com"><i class="far fa-envelope"></i></a>
+        <a href="https://github.com/jNLeee"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </div>
+
+		<!--- Footer -->
+  <footer>
+    <div class="container-fluid padding">
+      <div class="row text-center">
+        <div class="col-12">
+          <h5>Copyright &copy; 2020 Justin Lee.</h5>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  </body>
+</html>
